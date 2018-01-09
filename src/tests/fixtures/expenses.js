@@ -17,6 +17,6 @@ export default [{
     description: 'Credit card',
     note: '',
     createdAt: moment(0).add(4 , 'days').valueOf(),
-    amount: 45000
+    amount: 4500
 }];
 
