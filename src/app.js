@@ -12,6 +12,7 @@ import {addExpense} from './actions/expenses'
 import {setTextFilter} from './actions/filters'
 import getVisibleExpenses from './selectors/expenses'
 import { setTimeout } from 'core-js/library/web/timers';
+import './firebase/firebase';
 
 const store = configureStore();
 
