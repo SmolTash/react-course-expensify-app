@@ -146,7 +146,7 @@ test ('should setup set expense action with data ', () => {
     })
 });
 
-test ('should fetch the expenses from firebase', () =>{
+test ('should fetch the expenses from firebase', (done) =>{
     const store  = createMockStore({});
     store.dispatch(startSetExpenses()).then (() =>{
         const actions = store.getActions();
